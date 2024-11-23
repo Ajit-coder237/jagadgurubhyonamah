@@ -10,6 +10,12 @@ const Navbar = () => {
     { to: "/acharya", text: "आचार्य परम्परा", className: "group-hover:w-20" },
     { to: "/some-other-page", text: "लीलामृतम", className: "group-hover:w-20" },
   ];
+  const scroll = () => {
+    window.scrollBy({
+      top: 150, // Corrected the semicolon to a comma
+      behavior: "smooth", // Corrected 'behaviour' to 'behavior' (in US English)
+    });
+  };
 
   return (
     <div>
@@ -40,7 +46,13 @@ const Navbar = () => {
               key={index}
               className="font-laila font-bold text-[#556b2f] w-full md:w-auto"
             >
-              <Link to={item.to} onClick={() => setIsMenuOpen(false)}>
+              <Link
+                to={item.to}
+                onClick={() => {
+                  setIsMenuOpen(false);
+                  scroll();
+                }}
+              >
                 <div className="flex flex-col group hover:text-[#3e2a47]">
                   <div className="flex justify-center md:justify-start items-center gap-6 md:gap-12">
                     <span className="text-center md:text-left">

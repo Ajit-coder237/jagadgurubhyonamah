@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Laila:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Gotu&family=Laila:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   background-color: bisque;
 }
 
@@ -35,5 +37,23 @@ body{
 .laila-bold {
   font-family: "Laila", serif;
   font-weight: 700;
+  font-style: normal;
+}
+
+.amita-regular {
+  font-family: "Amita", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amita-bold {
+  font-family: "Amita", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.gotu-regular {
+  font-family: "Gotu", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }

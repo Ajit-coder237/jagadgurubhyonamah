@@ -5,6 +5,8 @@ export default {
     extend: {
       fontFamily: {
         laila: ["Laila", "sans-serif"], // Add 'laila' to the fontFamily
+        amita: ["Amita", "sans-serif"],
+        gotu: ["Gotu", "sans-serif"],
       },
     },
   },
