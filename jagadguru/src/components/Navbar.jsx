@@ -6,9 +6,9 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { to: "/", text: "योगिराज स्वामीजी", hoverWidth: "w-40" },
-    { to: "/acharya", text: "आचार्य परम्परा", hoverWidth: "w-20" },
-    { to: "/some-other-page", text: "लीलामृतम", hoverWidth: "w-14" },
+    { to: "/", text: "योगिराज स्वामीजी", className: "group-hover:w-40" },
+    { to: "/acharya", text: "आचार्य परम्परा", className: "group-hover:w-20" },
+    { to: "/some-other-page", text: "लीलामृतम", className: "group-hover:w-20" },
   ];
 
   return (
@@ -50,7 +50,7 @@ const Navbar = () => {
                   </div>
                   <div className="flex justify-center md:justify-start">
                     <hr
-                      className={`w-8 h-[0.1rem] border-t-2 border-orange-400 group-hover:${item.hoverWidth} transition-all duration-300`}
+                      className={`w-8 h-[0.1rem] border-t-2 border-orange-400 transition-all duration-300 ${item.className}`}
                     />
                   </div>
                 </div>
