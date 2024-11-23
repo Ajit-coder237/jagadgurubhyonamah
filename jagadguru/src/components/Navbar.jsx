@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { to: "/", text: "योगीराज स्वामीजी", hoverWidth: "w-40" },
+    { to: "/", text: "योगिराज स्वामीजी", hoverWidth: "w-40" },
     { to: "/acharya", text: "आचार्य परम्परा", hoverWidth: "w-20" },
     { to: "/some-other-page", text: "लीलामृतम", hoverWidth: "w-14" },
   ];
