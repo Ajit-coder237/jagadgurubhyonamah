@@ -11,7 +11,7 @@ const BhagwanyogirajPage = () => {
         />
       </div>
       <h1 className="font-gotu text-center tracking-[0.15em] leading-relaxed font-bold text-amber-950 text-lg md:text-xl lg:text-2xl mt-8 max-w-4xl">
-        नेपाल राष्ट्र का प्रथम जगद्गुरु
+        नेपाल राष्ट्रका प्रथम जगद्गुरु
         <br className="md:hidden" />
         <span className="text-amber-800"> अनन्त श्री विभुषित १००८ </span>
         <br className="md:hidden" />
