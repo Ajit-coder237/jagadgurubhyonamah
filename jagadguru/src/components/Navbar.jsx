@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="bg-transparent mt-2 border-t-[0.01rem] border-b-[0.01rem] border-[#36454f]">
+      <nav className="bg-transparent mt-2 ">
         {/* Mobile Menu Button */}
         <div className="md:hidden p-4 flex justify-end">
           <button
@@ -58,7 +58,7 @@ const Navbar = () => {
                     <span className="text-center md:text-left">
                       {item.text}
                     </span>
-                    <div className="border-l-2 border-red-500 h-10 hidden md:block"></div>
+                    {/* <div className="border-l-2 border-red-500 h-10 hidden md:block"></div> */}
                   </div>
                   <div className="flex justify-center md:justify-start">
                     <hr
